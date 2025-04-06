@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Empower Young Minds</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+
+    
+
+    <nav class="menu-container">
+      <div class="logo">
+       <img src="./images/logo.png" alt="logo">
+      </div>
+      <ul class="menu">
+        <li class="menu-items"><a href="#">Home</a></li>
+        <li class="menu-items"><a href="#">About Us</a></li>
+        <li class="menu-items"><a href="#">Contact Us</a></li>
+        <li class="menu-items"><a href="#">Blog</a></li>
+      </ul>
+    </nav>
+    
+      <header class="hero">
+        <h1 class="hero__title">EMPOWERING YOUR MINDS</h1>
+        <p class="hero__description">Discover a world of learning posibilities with our
+          <span id="hero__highlight">innovative</span>
+          educational platform.
+        </p>
+      </header>
+
+      <section class="feature">
+        <div class="feature__container">
+          <div class="feature__item">
+            <h2 class="feature__title">
+              Empower Student Learning
+            </h2>
+            <p class="feature__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae tenetur enim deserunt adipisci, tempora provident exercitationem magni.</p>
+          </div>
+          <div class="feature__item">
+            <h2 class="feature__title">
+              Streamlined Communication Tools
+            </h2>
+            <p class="feature__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae tenetur enim deserunt adipisci, tempora provident exercitationem magni.</p>
+          </div>
+          <div class="feature__item">
+            <h2 class="feature__title">
+              Customizable Learning Expirience
+            </h2>
+            <p class="feature__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae tenetur enim deserunt adipisci, tempora provident exercitationem magni.</p>
+          </div>
+        </div>
+
+        <div class="feature__image-container">
+          <img src="./images/features.jpg" alt="features image" class="feature__image">
+        </div>
+      </section>
+
+      <section class="cta">
+        <h3 class="cta__title">Learn more about usby contacting us</h3>
+        <p class="cta__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque reiciendis tenetur provident maiores alias, eos nemo tempore libero aliquam blanditiis fugiat deleniti. Labore molestiae hic, accusamus enim laborum accusantium dolores?
+        </p>
+        <button class="cta__button cta__button--primary">Learn More</button>
+      </section>
+
+       <!-- 4. Box Model - Video Section -->
+       <section class="video">
+        <h3 class="video__title">Grow your Child's Future</h3>
+        <p class="video__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eaque laborum pariatur quaerat. Voluptatibus laudantium ex, eligendi obcaecati vel at eius! Ea, et quis esse commodi illo necessitatibus ratione itaque?
+        </p>
+        <div class="video__controls">
+          <button class="video__button video__button--primary">
+            <i class="fas fa-book"></i> Learn More
+          </button>
+          <button class="video__button video__button--secondary">
+            <i class="fas fa-play-circle"></i> Watch Video
+          </button>
+        </div>
+        <div class="video__container"></div>
+       </section>
+
+       <!-- 5. Flex - Programs Section -->
+        <section class="programs">
+          <h2>
+            Explore Our State of the Art Facilities and Eriching Learning Expirience
+          </h2>
+          <div class="programs__cards">
+            <div class="programs__card">
+              <img src="./images/program1.jpg" alt="learning activities" class="programs__card-img">
+              <h3>Engaging Etracurricular Activities for Holistic Student Development</h3>
+              <p>Our School offers modern facilisties design to enhance learning experience.</p>
+              <button class="programs__button">Learn More</button>
+            </div>
+            <div class="programs__card">
+              <img src="./images/program2.jpg" alt="academic program" class="programs__card-img">
+              <h3>Diverse Academic Programs Tailored to Student Interests and Goals</h3>
+              <p>We provide a wide range of academic programs to cater to every student.</p>
+              <button class="programs__button">Learn More</button>
+            </div>
+            <div class="programs__card">
+              <img src="./images/program3.jpg" alt="learning activities" class="programs__card-img">
+              <h3>Dedicated Staff Committed to Student Succes and Growth</h3>
+              <p>Our experienced educators are passionate about nurturing each studetn's potential.</p>
+              <button class="programs__button">Learn More</button>
+            </div>
+          </div>
+        </section>
+
+        <!--6. HTML Elements & Images - Form Section -->
+        <section class="element">
+          <div class="element__left">
+            <img src="./images/formimage.jpg" alt="form image" class="element__image">
+          </div>
+          <div class="element__right">
+            <h2>Sign Up Today Now !</h2>
+            <p class="element__subtitle">
+              Fill out the form bleow to sign up for our newsletter and recive updates from us
+            </p>
+            <form class="element__form">
+              <h3>Your Interests:</h3>
+              <ul class="element__list">
+                <li class="element__list-item">Web Development</li>
+                <li class="element__list-item">UX/UI Design</li>
+                <li class="element__list-item">Digital Marketing</li>
+              </ul>
+
+              <div class="element__form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Enter username">
+              </div>
+              
+              <div class="element__form-group">
+                <label for="course">Select Course:</label>
+                <select id="course">
+                  <option value="">Choose a course...</option>
+                  <option value="html">HTML & CSS Mastering</option>
+                  <option value="js">JavaScript Mastering</option>
+                  <option value="react">React Mastering</option>
+                </select>
+              </div>
+
+              <button type="submit" class="element__button">Submit Form</button>
+            </form>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <div class="footer__content">
+            <div class="footer__logo">
+              <img src="./images/logo.png" alt="logo footer">
+              <p>Empowering the next generation of learners with innovative
+                educational solutions.</p>
+                <button class="footer__button">Learn More</button>
+            </div>
+            <div class="footer__links">
+              <div class="footer__column">
+                <h4>Quick Links</h4>
+                <a href="#">About Us</a>
+                <a href="#">Features</a>
+                <a href="#">Programs</a>
+                <a href="#">Blog</a>
+              </div>
+              <div class="footer__column">
+                <h4>Resources</h4>
+                <a href="#">Help Center</a>
+                <a href="#">Terms of use</a>
+                <a href="#">Privacy Policy</a>
+              </div>
+              <div class="footer__social">
+                <h4>Connect with Us</h4>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <p>&copy 2025 All Rights Reserved.</p>
+          </div>
+        </footer>
+  </body>
+</html>
